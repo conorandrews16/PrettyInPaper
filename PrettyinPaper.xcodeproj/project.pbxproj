@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,16 @@
 		7A38C3D825EDA189009F2BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A38C3D725EDA189009F2BFF /* Assets.xcassets */; };
 		7A38C3DB25EDA189009F2BFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A38C3DA25EDA189009F2BFF /* Preview Assets.xcassets */; };
 		7A38C3DE25EDA189009F2BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A38C3DC25EDA189009F2BFF /* LaunchScreen.storyboard */; };
+		7A38C3E725EDA35C009F2BFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A38C3E625EDA35C009F2BFF /* GoogleService-Info.plist */; };
+		7A38C40225EDAA32009F2BFF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A38C40125EDAA32009F2BFF /* Card.swift */; };
+		7A38C40525EDAC7F009F2BFF /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A38C40425EDAC7F009F2BFF /* FirebaseReference.swift */; };
+		7A38C40825EDAE64009F2BFF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A38C40725EDAE64009F2BFF /* Constants.swift */; };
+		D148FE6053DD2B3913174939 /* Pods_PrettyinPaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578BD35266C766F7A2F57CFC /* Pods_PrettyinPaper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		578BD35266C766F7A2F57CFC /* Pods_PrettyinPaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrettyinPaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B7E5B682812895C411C007 /* Pods-PrettyinPaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyinPaper.release.xcconfig"; path = "Target Support Files/Pods-PrettyinPaper/Pods-PrettyinPaper.release.xcconfig"; sourceTree = "<group>"; };
 		7A38C3CE25EDA188009F2BFF /* PrettyinPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrettyinPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A38C3D125EDA188009F2BFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A38C3D325EDA188009F2BFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		7A38C3DA25EDA189009F2BFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A38C3DD25EDA189009F2BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A38C3DF25EDA189009F2BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A38C3E625EDA35C009F2BFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A38C40125EDAA32009F2BFF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		7A38C40425EDAC7F009F2BFF /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
+		7A38C40725EDAE64009F2BFF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		92D5A689E83F2FB2850E30F6 /* Pods-PrettyinPaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyinPaper.debug.xcconfig"; path = "Target Support Files/Pods-PrettyinPaper/Pods-PrettyinPaper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D148FE6053DD2B3913174939 /* Pods_PrettyinPaper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D71450896C59BAC2DE41559 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92D5A689E83F2FB2850E30F6 /* Pods-PrettyinPaper.debug.xcconfig */,
+				60B7E5B682812895C411C007 /* Pods-PrettyinPaper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7A38C3C525EDA188009F2BFF = {
 			isa = PBXGroup;
 			children = (
 				7A38C3D025EDA188009F2BFF /* PrettyinPaper */,
 				7A38C3CF25EDA188009F2BFF /* Products */,
+				3D71450896C59BAC2DE41559 /* Pods */,
+				989A00B507F6C4D634E0E692 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +83,13 @@
 				7A38C3D125EDA188009F2BFF /* AppDelegate.swift */,
 				7A38C3D325EDA188009F2BFF /* SceneDelegate.swift */,
 				7A38C3D525EDA188009F2BFF /* ContentView.swift */,
+				7A38C40125EDAA32009F2BFF /* Card.swift */,
+				7A38C40425EDAC7F009F2BFF /* FirebaseReference.swift */,
+				7A38C40725EDAE64009F2BFF /* Constants.swift */,
 				7A38C3D725EDA189009F2BFF /* Assets.xcassets */,
 				7A38C3DC25EDA189009F2BFF /* LaunchScreen.storyboard */,
 				7A38C3DF25EDA189009F2BFF /* Info.plist */,
+				7A38C3E625EDA35C009F2BFF /* GoogleService-Info.plist */,
 				7A38C3D925EDA189009F2BFF /* Preview Content */,
 			);
 			path = PrettyinPaper;
@@ -75,6 +103,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		989A00B507F6C4D634E0E692 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578BD35266C766F7A2F57CFC /* Pods_PrettyinPaper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A38C3E225EDA189009F2BFF /* Build configuration list for PBXNativeTarget "PrettyinPaper" */;
 			buildPhases = (
+				13E5C584A718FBEDBAE9A724 /* [CP] Check Pods Manifest.lock */,
 				7A38C3CA25EDA188009F2BFF /* Sources */,
 				7A38C3CB25EDA188009F2BFF /* Frameworks */,
 				7A38C3CC25EDA188009F2BFF /* Resources */,
+				E3195C003E9866B2AA32E687 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A38C3DE25EDA189009F2BFF /* LaunchScreen.storyboard in Resources */,
+				7A38C3E725EDA35C009F2BFF /* GoogleService-Info.plist in Resources */,
 				7A38C3DB25EDA189009F2BFF /* Preview Assets.xcassets in Resources */,
 				7A38C3D825EDA189009F2BFF /* Assets.xcassets in Resources */,
 			);
@@ -140,14 +179,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13E5C584A718FBEDBAE9A724 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrettyinPaper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3195C003E9866B2AA32E687 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrettyinPaper/Pods-PrettyinPaper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrettyinPaper/Pods-PrettyinPaper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrettyinPaper/Pods-PrettyinPaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A38C3CA25EDA188009F2BFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A38C40525EDAC7F009F2BFF /* FirebaseReference.swift in Sources */,
 				7A38C3D225EDA188009F2BFF /* AppDelegate.swift in Sources */,
 				7A38C3D425EDA188009F2BFF /* SceneDelegate.swift in Sources */,
 				7A38C3D625EDA188009F2BFF /* ContentView.swift in Sources */,
+				7A38C40225EDAA32009F2BFF /* Card.swift in Sources */,
+				7A38C40825EDAE64009F2BFF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +367,7 @@
 		};
 		7A38C3E325EDA189009F2BFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D5A689E83F2FB2850E30F6 /* Pods-PrettyinPaper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +389,7 @@
 		};
 		7A38C3E425EDA189009F2BFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B7E5B682812895C411C007 /* Pods-PrettyinPaper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
