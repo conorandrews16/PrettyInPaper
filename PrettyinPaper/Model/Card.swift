@@ -51,10 +51,13 @@ func createMenu() {
 let cardData = [
     // Kit
     Card(id: UUID().uuidString, name: "Test Kit", imageName: "espresso", category: Category.kit, description: "Test kit description", price: 2.99),
+    Card(id: UUID().uuidString, name: "Test Kit", imageName: "espresso", category: Category.kit, description: "Test kit description", price: 2.99),
     
     // Pattern
     Card(id: UUID().uuidString, name: "Test Pattern", imageName: "espresso", category: Category.pattern, description: "Test pattern description", price: 2.99),
+    Card(id: UUID().uuidString, name: "Test Pattern", imageName: "espresso", category: Category.pattern, description: "Test pattern description", price: 2.99),
     
     // Paper
+    Card(id: UUID().uuidString, name: "Test Paper", imageName: "espresso", category: Category.paper, description: "Test paper description", price: 2.99),
     Card(id: UUID().uuidString, name: "Test Paper", imageName: "espresso", category: Category.paper, description: "Test paper description", price: 2.99),
 ]

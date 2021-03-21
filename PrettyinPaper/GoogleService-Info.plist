@@ -13,21 +13,21 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>conorandrews.PrettyInPaper</string>
+	<string>conorandrews.PrettyinPaper</string>
 	<key>PROJECT_ID</key>
-	<string>prettyinpaper-91d8a</string>
+	<string>PrettyinPaper-91d8a</string>
 	<key>STORAGE_BUCKET</key>
 	<string>prettyinpaper-91d8a.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:471219261595:ios:f87d3b2ae10808728df63e</string>
 </dict>
